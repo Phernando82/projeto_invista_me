@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-l$wwnq^182$&xjpz$m2e$wff0&llnd@p7d=t#$a&x1ud4)6v60
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://invertir-me.herokuapp.com/', 'http://127.0.0.1:8000/']
 
 
 # Application definition
