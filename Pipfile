@@ -4,14 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+django = "*"
+django-crispy-forms = "*"
 gunicorn = "*"
 whitenoise = "*"
 dj-database-url = "*"
 psycopg2 = "*"
 
 [dev-packages]
-django = "*"
-django-crispy-forms = "*"
+
 
 [requires]
 python_version = "3.10"
