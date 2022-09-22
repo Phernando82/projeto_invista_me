@@ -15,7 +15,7 @@
 
 <body>
   <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="url 'investimentos">Invista-Me!</a>
+    <a class="navbar-brand" href="{% url 'investimentos' %}">Invista-Me!</a>
     <ul style="list-style: none;">
         {% if user.is_authenticated %}
         <li style="float: left">
